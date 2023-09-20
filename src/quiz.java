@@ -19,7 +19,7 @@ public class quiz {
         System.out.print("What is the capital of Italy? ");
         String n3 = input.nextLine();
 
-        if(n3.toLowerCase() != "milan") {
+        if(!n3.toLowerCase().equals( "rome")){
             System.out.println("Sorry, the correct answer is rome");
         }
 
