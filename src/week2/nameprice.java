@@ -1,3 +1,5 @@
+package week2;
+
 import java.util.*;
 public class nameprice {
     public static void main(String[] args) {
